@@ -10,6 +10,9 @@ html {
     overflow-x: hidden
 }
 
+/* @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
 /* @font-face {
     font-family: icomoon;
     src: url(../fonts/icomoon/icomoon.eot?1z9v6x);
@@ -24,10 +27,10 @@ html {
 
 body {
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.85;
     background: #fff;
-    font-family: Rubik, sans-serif;
+    /* font-family: 'Oi', cursive; */
     color: #7e8890
 }
 
@@ -84,7 +87,7 @@ ul {
 a {
     -webkit-transition: .3s all;
     transition: .3s all;
-    color: #903479
+    color: #2F70AF
 }
 
 a:active,
@@ -101,7 +104,7 @@ a.hover-reverse {
 a.hover-reverse:active,
 a.hover-reverse:focus,
 a.hover-reverse:hover {
-    color: #903479;
+    color: #2F70AF;
     text-decoration: none
 }
 
@@ -267,7 +270,7 @@ a.hover-reverse:hover {
 }
 
 .probootstrap-main-nav li a:hover {
-    color: #903479
+    color: #2F70AF
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li a:hover {
@@ -287,7 +290,7 @@ a.hover-reverse:hover {
 
 .probootstrap-main-nav li.probootstrap-cta a:hover {
     background: #fff;
-    color: #903479
+    color: #2F70AF
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li.probootstrap-cta {
@@ -301,8 +304,8 @@ a.hover-reverse:hover {
 }
 
 .probootstrap-main-nav li.active a {
-    color: #903479;
-    border-bottom: 2px solid #903479
+    color: #2F70AF;
+    border-bottom: 2px solid #2F70AF
 }
 
 .probootstrap-main-nav li.active a:hover {
@@ -415,10 +418,10 @@ a.hover-reverse:hover {
     bottom: 0;
     content: "";
     background: #ddf0f3;
-    background: webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#903479));
-    background: linear-gradient(to right, #ddf0f3 0, #903479 100%);
+    background:gradient(linear, left top, right top, from(#ddf0f3), to(#2F70AF));
+    background: linear-gradient(to right, #ddf0f3 0, #2F70AF 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=firstcolor, endColorstr=secondcolor, GradientType=1);
-    opacity: 0.8;
+    opacity:0.8;
 }
 
 .probootstrap-intro>.container,
@@ -479,7 +482,7 @@ a.hover-reverse:hover {
     left: 0;
     width: 50px;
     height: 2px;
-    background: #903479
+    background: #2F70AF
 }
 
 .probootstrap-intro .probootstrap-subtitle h2 a {
@@ -629,43 +632,43 @@ a.hover-reverse:hover {
 }
 
 .btn.btn-primary {
-    border: 2px solid #903479;
-    background: #903479;
+    border: 2px solid #2F70AF;
+    background: #2F70AF;
     color: #fff
 }
 
 .btn.btn-primary:active,
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
-    background: #6b265a;
+    background: #1d456d;
     color: #fff;
-    border: 2px solid #6b265a
+    border: 2px solid #1d456d
 }
 
 .btn.btn-primary:active,
 .btn.btn-primary:focus {
     outline: 0;
-    border: 2px solid #6b265a
+    border: 2px solid #1d456d
 }
 
 .btn.btn-ghost {
     background: 0 0;
-    border: 2px solid #903479;
-    color: #903479
+    border: 2px solid #2F70AF;
+    color: #2F70AF
 }
 
 .btn.btn-ghost:hover {
-    background: #903479;
+    background: #2F70AF;
     color: #fff;
-    border: 2px solid #903479
+    border: 2px solid #2F70AF
 }
 
 .btn.btn-ghost:active,
 .btn.btn-ghost:focus {
     outline: 0;
     background: 0 0;
-    color: #903479;
-    border: 2px solid #903479
+    color: #2F70AF;
+    border: 2px solid #2F70AF
 }
 
 .btn.btn-ghost.btn-ghost-white {
@@ -676,14 +679,14 @@ a.hover-reverse:hover {
 
 .btn.btn-ghost.btn-ghost-white:hover {
     background: #fff;
-    color: #903479
+    color: #2F70AF
 }
 
 .btn.btn-ghost.btn-ghost-white:active,
 .btn.btn-ghost.btn-ghost-white:focus {
     outline: 0;
     background: #fff;
-    color: #903479;
+    color: #2F70AF;
     border: 2px solid #fff
 }
 
@@ -703,7 +706,7 @@ a.hover-reverse:hover {
 
 .probootstrap-section {
     padding: 5em 0;
-    position: relative;
+    /* position: relative; */
     z-index: 2
 }
 
@@ -727,8 +730,8 @@ a.hover-reverse:hover {
 .probootstrap-section.probootstrap-section-colored,
 .probootstrap-section.probootstrap-section-dark {
     background: #ddf0f3;
-    background: webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#903479));
-    background: linear-gradient(to right, #ddf0f3 0, #903479 100%);
+    background: gradient(linear, left top, right top, from(#ddf0f3), to(#2F70AF));
+    background: linear-gradient(to right, #ddf0f3 0, #2F70AF 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=firstcolor, endColorstr=secondcolor, GradientType=1)
 }
 
@@ -781,12 +784,12 @@ a.hover-reverse:hover {
 }
 
 .probootstrap-section .heading-with-icon {
-    color: #903479;
+    color: #2F70AF;
     font-size: 24px
 }
 
 .probootstrap-section .heading-with-icon i {
-    color: #903479
+    color: #2F70AF
 }
 
 .probootstrap-section-heading h2 {
@@ -896,7 +899,7 @@ a.hover-reverse:hover {
 }
 
 .probootstrap-owl-navigation li a:hover {
-    background: #903479;
+    background: #2F70AF;
     color: #fff
 }
 
@@ -957,7 +960,7 @@ a.hover-reverse:hover {
 
 .probootstrap-half .text {
     padding: 100px;
-    background: #903479
+    background: #2F70AF
 }
 
 @media screen and (max-width:1000px) {
@@ -997,7 +1000,7 @@ a.hover-reverse:hover {
 }
 
 .probootstrap-footer {
-    padding: 3em 0;
+    /* padding: 3em 0; */
     position: relative
 }
 
@@ -1026,7 +1029,7 @@ a.hover-reverse:hover {
 .probootstrap-footer .probootstrap-backtotop a:active,
 .probootstrap-footer .probootstrap-backtotop a:focus,
 .probootstrap-footer .probootstrap-backtotop a:hover {
-    color: #903479 !important
+    color: #2F70AF !important
 }
 
 .probootstrap-footer .border-top {
@@ -1210,7 +1213,7 @@ a.hover-reverse:hover {
 }
 
 .probootstrap-block-image-text .text h3 a:hover {
-    color: #903479
+    color: #2F70AF
 }
 
 .probootstrap-block-image-text .text p.dark {
@@ -1326,7 +1329,7 @@ a.hover-reverse:hover {
 .probootstrap-blog-list li a:hover h4,
 .probootstrap-news-list li a:hover h4,
 .probootstrap-product-list li a:hover h4 {
-    color: #903479
+    color: #2F70AF
 }
 
 .link-with-icon i {
@@ -1341,7 +1344,7 @@ a.hover-reverse:hover {
 
 .link-with-icon:focus,
 .link-with-icon:hover {
-    color: #6b265a
+    color: #1d456d
 }
 
 .link-with-icon:focus i,
@@ -1395,7 +1398,7 @@ a.hover-reverse:hover {
 .nav-tabs.probootstrap-tabs>li>a {
     border-radius: 0;
     padding: 20px 30px;
-    background: #903479;
+    background: #2F70AF;
     color: #fff;
     font-size: 16px;
     border: none !important
@@ -1414,7 +1417,7 @@ a.hover-reverse:hover {
 
 .nav-pills.probootstrap-tabs>li>a:hover,
 .nav-tabs.probootstrap-tabs>li>a:hover {
-    background: #7d2d69
+    background: #2F70AF
 }
 
 .nav-pills.probootstrap-tabs>li>a:active,
@@ -1466,7 +1469,7 @@ a.hover-reverse:hover {
 
 .service .icon i {
     font-size: 40px;
-    color: #903479
+    color: #2F70AF
 }
 
 .service h3 {
@@ -1506,7 +1509,7 @@ a.hover-reverse:hover {
 }
 
 .service.left-icon .icon .svg {
-    fill: #903479
+    fill: #2F70AF
 }
 
 .service.left-icon .text {
@@ -1592,7 +1595,7 @@ a.hover-reverse:hover {
 .probootstrap-form .form-control:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #903479;
+    border-color: #2F70AF;
     background: #fff
 }
 
@@ -1657,7 +1660,7 @@ a.hover-reverse:hover {
 }
 
 .with-icon.colored i {
-    color: #903479
+    color: #2F70AF
 }
 
 .flexslider,
@@ -1692,7 +1695,7 @@ a.hover-reverse:hover {
     font-weight: 300;
     font-size: 50px;
     line-height: 60px;
-    font-family: "Crimson Text", serif
+    font-family: "Crimson Text", serif;
 }
 
 .flexslider .probootstrap-sub-wrap {
@@ -2218,7 +2221,7 @@ a.hover-reverse:hover {
 }
 
 .probootstrap-primary-color {
-    color: #903479 !important
+    color: #2F70AF !important
 }
 
 .probootstrap-secondary-color {
@@ -2246,4 +2249,42 @@ a.hover-reverse:hover {
         float: none;
         width: 100%
     }
+}
+/* search bar */
+
+.box{
+    position: relative;
+}
+
+.input{
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    background: none;
+    border: 4px solid #fefefe;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: "Crimson Text", serif;
+    font-size: 26px;
+    color: #ffffff;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+}
+.box i{
+    position: absolute;
+    top: 50%;
+    right: 460px;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: #ffffff;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
 }

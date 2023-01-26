@@ -1,9 +1,9 @@
 @extends('layout.master')
 @section('title')
-   about
+about
 @endsection
 @section('css')
-    
+
 @endsection
 
 
@@ -17,12 +17,11 @@
 
 <section class="probootstrap-slider flexslider probootstrap-inner">
     <ul class="slides">
-       <li style="background-image: url(userSide/img/slider_1.jpg);" class="overlay">
+       <li style="background-image:url(img/img_15.jpg);" class="overlay">
           <div class="container">
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
                 <div class="probootstrap-slider-text text-center">
-                  <p><img src="img/curve_white.svg" class="seperator probootstrap-animate" alt="Free HTML5 Bootstrap Template"></p>
                   <h1 class="probootstrap-heading probootstrap-animate">About Fields-Corner</h1>
                   <div class="probootstrap-animate probootstrap-sub-wrap">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
                 </div>
@@ -89,7 +88,7 @@
               <h3>1+ Million Hotel Rooms</h3>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
-            </div>  
+            </div>
           </div>
         </div>
         <div class="col-md-4">
@@ -101,7 +100,7 @@
               <h3>Food &amp; Drinks</h3>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
-            </div>  
+            </div>
           </div>
         </div>
         <div class="col-md-4">
@@ -113,128 +112,84 @@
               <h3>Airport Taxi</h3>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
-            </div>  
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
+
 <!-- ======= Our Team Section ======= -->
-<section id="team" class="team">
-    <div class="container" data-aos="fade-up">
-  
-      <div class="section-header text-center">
-        <h2>Our Team</h2>
-        <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
-      </div>
-  
-      <div class="row gy-6">
-  
-        <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-          <div class="member-img">
-            <img src="" width="100px" style="margin-left:130px" class="img" alt="">
-            
-          </div>
-          <div class="member-info text-center">
-            <h4>Aseem Yaseen</h4>
-            <span>Web-Developer</span>
-            {{-- <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p> --}}
-          </div>
-        </div><!-- End Team Member -->
-  
-        <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-          <div class="member-img">
-            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-            <div class="social">
-              <a href="#"><i class="bi bi-twitter"></i></a>
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
+
+<section class="probootstrap-section">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="probootstrap-room">
+            <a href="#"><img src="img/asem.png" alt="Free Bootstrap Template by uicookies.com" style="width: 200px; height:200px;margin-left:78px;" class="img-responsive"></a>
+            <div class="text text-center">
+              <h3>Aseem Yaseen</h3>
+              <p>Web-Developer</p>
+              <div class="post-meta mb30">
+              </div>
             </div>
           </div>
-          <div class="member-info text-center">
-            <h4>Obaida Al-thunibat</h4>
-            <span>Web-Developer</span>
-            {{-- <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p> --}}
-  
-          </div>
-        </div><!-- End Team Member -->
-  
-        <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-          <div class="member-img">
-            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-            <div class="social">
-              <a href="#"><i class="bi bi-twitter"></i></a>
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="probootstrap-room">
+            <a href="#"><img src="img/obida.png" alt="Free Bootstrap Template by uicookies.com" style="width: 200px; height:200px;margin-left:78px;" class="img-responsive"></a>
+            <div class="text text-center">
+              <h3>Obaida Al-thunibat</h3>
+              <p>Web-Developer</p>
+              <div class="post-meta mb30">
+              </div>
             </div>
           </div>
-          <div class="member-info text-center">
-            <h4>Shimaa Al-shlouh</h4>
-            <span>Web-Developer</span>
-            {{-- <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p> --}}
-          </div>
-        </div><!-- End Team Member -->
-  
-        <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
-          <div class="member-img">
-            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-            <div class="social">
-              <a href="#"><i class="bi bi-twitter"></i></a>
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="clearfix visible-sm-block"></div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="probootstrap-room">
+            <a href="#"><img src="img/shaima.png" alt="Free Bootstrap Template by uicookies.com" style="width: 200px; height:200px;margin-left:78px;" class="img-responsive"></a>
+            <div class="text text-center">
+              <h3>Shimaa Al-shlouh</h3>
+              <p>Web-Developer</p>
+              <div class="post-meta mb30">
+              </div>
             </div>
           </div>
-          <div class="member-info text-center">
-            <h4>Walaa Obeidat</h4>
-            <span>Web-Developer</span>
-            {{-- <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p> --}}
-          </div>
-        </div><!-- End Team Member -->
-  
-        <div class="col-lg-4 col-md-6 member "  data-aos="fade-up" data-aos-delay="500">
-          <div class="member-img">
-            <img src="userSide/img/img_1.jpg" class="img-fluid" alt="" width="200px" >
-            <div class="social">
-              <a href="#"><i class="bi bi-twitter"></i></a>
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="row">
+
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="probootstrap-room">
+            <a href="#"><img src="img/wala.png" alt="Free Bootstrap Template by uicookies.com"  style="width: 200px; height:200px;margin-left:195px;" class="img-responsive"></a>
+            <div class="text text-center">
+              <h3>Walaa Obeidat</h3>
+              <p>Web-Developer</p>
+              <div class="post-meta mb30">
+
+              </div>
             </div>
           </div>
-          <div class="member-info text-center">
-            <h4>Noorelhuda Al-shebailat</h4>
-            <span>Web-Developer</span>
-            {{-- <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p> --}}
-          </div>
-        </div><!-- End Team Member -->
-  
-        {{-- <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
-          <div class="member-img">
-            <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="">
-            <div class="social">
-              <a href="#"><i class="bi bi-twitter"></i></a>
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="clearfix visible-sm-block"></div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="probootstrap-room">
+            <a href="#"><img src="img/nooralhuda.png" alt="Free Bootstrap Template by uicookies.com" style="width: 200px; height:200px;margin-left:195px;" class="img-responsive"></a>
+            <div class="text text-center">
+              <h3>Noorelhuda Al-shebailat</h3>
+              <p>Web-Developer</p>
+              <div class="post-meta mb30">
+              </div>
             </div>
           </div>
-          <div class="member-info text-center">
-            <h4>Josepha Palas</h4>
-            <span>Operation</span>
-            <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
-          </div> --}}
-        </div><!-- End Team Member -->
-  
-      </div>
-  
+        </div>
     </div>
   </section>
   <!-- End Our Team Section -->
-  
+
 
 @endsection
 
