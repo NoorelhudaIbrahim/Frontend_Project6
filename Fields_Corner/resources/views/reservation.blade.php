@@ -78,8 +78,10 @@
                 <div class="form-group">
                   <label for="date-arrival">Arrival</label>
                   <div class="form-field">
-                    <i class="icon icon-calendar2"></i>
-                    <input type="text" class="form-control" id="date-arrival" name="date-arrival">
+                    {{-- <i class="icon icon-calendar2"></i> --}}
+                    {{-- <input type="date" class="form-control" id="date-arrival" name="date-arrival"> --}}
+                    <input type="datetime-local" class="form-control" id="date-arrival" name="date-arrival">
+
                   </div>
                 </div>
               </div>
@@ -87,8 +89,10 @@
                 <div class="form-group">
                   <label for="date-departure">Departure</label>
                   <div class="form-field">
-                    <i class="icon icon-calendar2"></i>
-                    <input type="text" class="form-control" id="date-departure" name="date-departure">
+                    {{-- <i class="icon icon-calendar2"></i> --}}
+                    {{-- <input type="date" class="form-control" id="date-departure" name="date-departure"> --}}
+                    <input type="datetime-local" class="form-control" id="date-departure" name="date-departure">
+
                   </div>
                 </div>
               </div>
@@ -112,7 +116,7 @@
               </div> --}}
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="children">Children</label>
+                  <label for="children">Numbers</label>
                   <div class="form-field">
                     <i class="icon icon-chevron-down"></i>
                     <select name="children" id="children" class="form-control">

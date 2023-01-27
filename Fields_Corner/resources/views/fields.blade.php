@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title')
-   category
+   fields
 @endsection
 @section('css')
     
@@ -23,8 +23,8 @@
             <div class="col-md-10 col-md-offset-1">
               <div class="probootstrap-slider-text text-center">
                 {{-- <p><img src="img/curve_white.svg" class="seperator probootstrap-animate" alt="Free HTML5 Bootstrap Template"></p> --}}
-                <h1 class="probootstrap-heading probootstrap-animate">Category</h1>
-                <div class="probootstrap-animate probootstrap-sub-wrap">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
+                <h1 class="probootstrap-heading probootstrap-animate">Fields</h1>
+                {{-- <div class="probootstrap-animate probootstrap-sub-wrap">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div> --}}
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@
                 <li><i class="icon-user2"></i> 3 Guests</li>
               </ul>
             </div>
-            <p><a href="#" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+            <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@
                 <li><i class="icon-user2"></i> 3 Guests</li>
               </ul>
             </div>
-            <p><a href="#" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+            <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@
                 <li><i class="icon-user2"></i> 3 Guests</li>
               </ul>
             </div>
-            <p><a href="#" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+            <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@
                 <li><i class="icon-user2"></i> 3 Guests</li>
               </ul>
             </div>
-            <p><a href="#" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+            <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
           </div>
         </div>
       </div>
@@ -116,7 +116,7 @@
                 <li><i class="icon-user2"></i> 3 Guests</li>
               </ul>
             </div>
-            <p><a href="#" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+            <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
           </div>
         </div>
       </div>
@@ -132,7 +132,7 @@
                 <li><i class="icon-user2"></i> 3 Guests</li>
               </ul>
             </div>
-            <p><a href="#" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+            <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
           </div>
         </div>
       </div>

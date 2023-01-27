@@ -13,10 +13,9 @@
 
             <li class="active"><a href="{{ route('welcome') }}">Home</a></li>
             <li ><a href="{{ url('about') }}">About</a></li>
-            {{-- <li><a href="rooms.html">Our Rooms</a></li> --}}
-            <li class="hidden-xs probootstrap-logo-center"><a href="index.html"><img src="img/logo.png" class="hires" width="250" height="100" alt="Free Bootstrap Template by uicookies.com"></a></li>
-            <li><a href="{{ route('reservation') }}">Reservation</a></li>
-            {{-- <li><a href="blog.html">Blog</a></li> --}}
+            <li class="hidden-xs probootstrap-logo-center"><a href="{{ route('welcome') }}"><img src="img/logo.png" class="hires" width="250" height="100" alt="Free Bootstrap Template by uicookies.com"></a></li>
+            <li><a href="{{ route('fields')}}">Fields</a></li>
+            {{-- <li><a href="{{ route('reservation') }}">Reservation</a></li> --}}
             <li><a href="{{ url('contact') }}">Contact</a></li>
           </ul>
 
