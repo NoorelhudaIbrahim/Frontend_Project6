@@ -1,17 +1,17 @@
-<!-- START: footer -->
+
 <footer role="contentinfo" class="probootstrap-footer">
-    <div class="container">
-      <div class="row">
+    <div  class="container">
+      <div style="height:10px !important;" class="row">
         <div class="col-md-4">
           <div class="probootstrap-footer-widget">
-            <p class="mt40"><img src="img/logo_sm.png" class="hires" width="120" height="33" alt="Free HTML5 Bootstrap Template by uicookies.com"></p>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
+            <p class="mt40"><img src="img/logo.png" class="hires" width="120" height="33" alt="Free HTML5 Bootstrap Template by uicookies.com"></p>
+            <p>We provide a reservation service through us for each of the fields and swimming pools available in the city of Aqaba</p>
+            <p><a href="{{ url('about') }}" class="link-with-icon">Know More <i class=" icon-chevron-right"></i></a></p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="probootstrap-footer-widget">
-            <h3>Blog</h3>
+            {{-- <h3>Blog</h3>
             <ul class="probootstrap-blog-list">
               <li>
                 <a href="#">
@@ -43,18 +43,18 @@
                   </div>
                 </a>
               </li>
-            </ul>
+            </ul> --}}
           </div>
         </div>
         <div class="col-md-4">
           <div class="probootstrap-footer-widget">
             <h3>Contact</h3>
             <ul class="probootstrap-contact-info">
-              <li><i class="icon-location2"></i> <span>198 West 21th Street, Suite 721 New York NY 10016</span></li>
-              <li><i class="icon-mail"></i><span>info@domain.com</span></li>
-              <li><i class="icon-phone2"></i><span>+123 456 7890</span></li>
+              <li><i class="icon-location2"></i> <span>Aqaba,Jordan</span></li>
+              <li><i class="icon-mail"></i><span>info@fieldsCorner.com</span></li>
+              <li><i class="icon-phone2"></i><span>+962 03247814</span></li>
             </ul>
-            
+
           </div>
         </div>
       </div>
@@ -66,21 +66,10 @@
             <li><a href=""><i class="icon-instagram2"></i></a></li>
           </ul>
           <p>
-            <small>&copy; 2017 <a href="https://uicookies.com/" target="_blank">uiCookies:Atlantis</a>. All Rights Reserved. <br> Designed &amp; Developed by <a href="https://uicookies.com/" target="_blank">uicookies.com</a> Demo Images: Unsplash.com &amp; Pexels.com</small>
+            <small>&copy; 2023 Fields Corner. All Rights Reserved.</small>
           </p>
-          
+
         </div>
       </div>
     </div>
   </footer>
-
-
-
-  
-  <!-- END: footer -->
-  
-
-
-
-
-{{-- @endsection --}}
