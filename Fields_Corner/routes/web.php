@@ -27,7 +27,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/',[MasterController::class,'index'])->name('welcome');
-Route::get('/Fields',[categoryController::class,'index'])->name('fields');
+Route::get('/fields',[categoryController::class,'index'])->name('fields');
 Route::get('/reservation',[reservationController::class,'index'])->name('reservation');
 Route::get('/register',[registerController::class,'index'])->name('register');
 Route::get('/login',[loginController::class,'index'])->name('login');
