@@ -46,3 +46,6 @@ Route::get('UserProfile',function(){
 Route::get('Edit',function(){
     return view('userprofileEdit');
 });
+Route::get('singleItem',function(){
+    return view('singleItem');
+});
