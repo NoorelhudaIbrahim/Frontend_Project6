@@ -35,8 +35,11 @@ Single Item
                                 <div class="price d-flex flex-row align-items-center">
                                     <div class="ml-2"> <small class="dis-price">$59</small> </div>
                                 </div>
-                            </div>
+                            {{-- </div> --}}
                             <p class="about">Shop from a wide range of t-shirt from orianz. Pefect for your everyday use, you could pair it with a stylish pair of jeans or trousers complete the look.</p>
+                            <div class="col-sm-12">
+                                <a class="btn btn-primary " target="__blank" href="{{ url('Edit') }}">Edit</a>
+                              </div>
                         </div>
                     </div>
                 </div>
