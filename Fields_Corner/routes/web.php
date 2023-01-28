@@ -4,6 +4,8 @@ use App\Http\Controllers\categoryController;
 use App\Http\Controllers\reservationController;
 use App\Http\Controllers\registerController;
 use App\Http\Controllers\loginController;
+use App\Http\Controllers\searchController;
+
 
 
 
@@ -25,7 +27,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/',[MasterController::class,'index'])->name('welcome');
-Route::get('/category',[categoryController::class,'index'])->name('category');
+Route::get('/fields',[categoryController::class,'index'])->name('fields');
 Route::get('/reservation',[reservationController::class,'index'])->name('reservation');
 Route::get('/register',[registerController::class,'index'])->name('register');
 Route::get('/login',[loginController::class,'index'])->name('login');

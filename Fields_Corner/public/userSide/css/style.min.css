@@ -107,7 +107,7 @@ a.hover-reverse:hover {
     color: #2F70AF;
     text-decoration: none
 }
-
+/* 
 .probootstrap-header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -115,7 +115,7 @@ a.hover-reverse:hover {
     z-index: 4;
     top: 0;
     background: #fff
-}
+} */
 
 .probootstrap-logo {
     float: left;
@@ -317,21 +317,21 @@ a.hover-reverse:hover {
     color: #fff
 }
 
-.probootstrap-header-social {
+/* .probootstrap-header-social {
     position: absolute;
     top: 34px;
     right: 60px
-}
+} */
 
-.probootstrap-header-social li {
+/* .probootstrap-header-social li {
     display: inline;
     list-style: none;
     margin-left: 5px
-}
+} */
 
-.probootstrap-header-social li a {
+/* .probootstrap-header-social li a {
     color: #fff
-}
+} */
 
 .mobile-menu-overlay {
     z-index: 1099;
