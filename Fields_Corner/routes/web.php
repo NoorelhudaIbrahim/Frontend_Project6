@@ -26,23 +26,23 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/',[MasterController::class,'index'])->name('welcome');
-Route::get('/fields',[categoryController::class,'index'])->name('fields');
-Route::get('/reservation',[reservationController::class,'index'])->name('reservation');
-Route::get('/register',[registerController::class,'index'])->name('register');
-Route::get('/login',[loginController::class,'index'])->name('login');
+Route::get('/',[MasterController::class,'index'])->name('puplicUser.welcome');
+Route::get('/fields',[categoryController::class,'index'])->name('puplicUser.fields');
+Route::get('/reservation',[reservationController::class,'index'])->name('puplicUser.reservation');
+Route::get('/register',[registerController::class,'index'])->name('puplicUser.register');
+Route::get('/login',[loginController::class,'index'])->name('puplicUser.login');
 
 
 
 Route::get('/about', function () {
-    return view('about');
+    return view('puplicUser.about');
 });
 Route::get('contact', function () {
-    return view('contact');
+    return view('puplicUser.contact');
 });
 Route::get('UserProfile',function(){
-    return view('userprofile');
+    return view('puplicUser.userprofile');
 });
 Route::get('Edit',function(){
-    return view('userprofileEdit');
+    return view('puplicUser.userprofileEdit');
 });

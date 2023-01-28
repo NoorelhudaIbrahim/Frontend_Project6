@@ -8,19 +8,19 @@
     <meta name="description" content="Free Bootstrap Theme by uicookies.com">
     <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
 
-    @include('layout.head')
+    @include('puplicUser.layout.head')
 </head>
 <body>
 
-    @include('layout.navbar')
+    @include('puplicUser.layout.navbar')
 
     @yield('showCase')
 
     @yield('contant')
 
 
-    @include('layout.script')
+    @include('puplicUser.layout.script')
 
-    @include('layout.footer')
+    @include('puplicUser.layout.footer')
 
 

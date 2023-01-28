@@ -3,21 +3,25 @@
 
  <header class="lb">
 
-  <div id="menu-bar" class="fas fa-bars "></div>
-  <a class="logo" href="{{ route('welcome') }}"><img src="img/logo.png" class="hires" width="250" height="60" alt="Free Bootstrap Template by uicookies.com"></a>
+  {{-- <div id="menu-bar" class="fas fa-bars "></div> --}}
+  <a class="logo" href="{{ route('puplicUser.welcome') }}"><img src="img/logo.png" class="hires" width="150" height="80" alt="Free Bootstrap Template by uicookies.com"></a>
   {{-- <a href="#" class="logo"><span>T</span>ravel</a> --}}
 
   <nav class="navbar">
-      <a href="{{ route('welcome') }}">Home</a>
-      <a href="{{ url('about') }}">About</a>
-      <a href="{{ route('fields')}}">Fields</a>
-      <a href="{{ url('contact') }}">Contact</a>
+      <a href="{{ route('puplicUser.welcome') }}">Home</a>
+      <a href="{{ url('puplicUser.about') }}">About</a>
+      <a href="{{ route('puplicUser.fields')}}">Fields</a>
+      <a href="{{ url('puplicUser.contact') }}">Contact</a>
   </nav>
 
   {{-- <div class="icons"> --}}
       {{-- <i class="fas fa-search" id="search-btn"></i> --}}
       {{-- <i class="fas fa-user" id="login-btn"></i> --}}
-      <div class="nav-item dropdown">
+      <div class="nav-item dropdown" style="color:#2F70AF;
+      font-size: 2rem;
+      margin:0 .8rem;
+      padding-left: 20px;
+      font-family: 'Times New Roman', Times, serif;">
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"    aria-expanded="false">
         <i class="fa fa-user"></i> Username 
      </a>

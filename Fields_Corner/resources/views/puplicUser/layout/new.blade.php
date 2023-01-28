@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('publicUser.layout.master')
 @section('title')
 
 @endsection

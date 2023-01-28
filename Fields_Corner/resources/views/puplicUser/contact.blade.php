@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('puplicUser.layout.master')
 @section('contact')
    
 @endsection

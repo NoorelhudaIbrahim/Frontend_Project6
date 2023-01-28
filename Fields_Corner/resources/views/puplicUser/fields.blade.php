@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('puplicUser.layout.master')
 @section('title')
    fields
 @endsection
@@ -46,7 +46,7 @@
             <div class="post-meta mb30">
              
             </div>
-            <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+            <p><a href="{{ route('puplicUser.reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@
             <div class="post-meta mb30">
               
             </div>
-            <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+            <p><a href="{{ route('puplicUser.reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@
             <div class="post-meta mb30">
               
             </div>
-            <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+            <p><a href="{{ route('puplicUser.reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@
             <div class="post-meta mb30">
              
             </div>
-            <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+            <p><a href="{{ route('puplicUser.reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@
             <div class="post-meta mb30">
               
             </div>
-            <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+            <p><a href="{{ route('puplicUser.reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
           </div>
         </div>
       </div>
@@ -114,7 +114,7 @@
             <div class="post-meta mb30">
              
             </div>
-            <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+            <p><a href="{{ route('puplicUser.reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
           </div>
         </div>
       </div>
@@ -130,7 +130,7 @@
           <div class="post-meta mb30">
            
           </div>
-          <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+          <p><a href="{{ route('puplicUser.reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
         </div>
       </div>
     </div>
@@ -143,7 +143,7 @@
           <div class="post-meta mb30">
            
           </div>
-          <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+          <p><a href="{{ route('puplicUser.reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
         </div>
       </div>
     </div>
@@ -157,7 +157,7 @@
           <div class="post-meta mb30">
            
           </div>
-          <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+          <p><a href="{{ route('puplicUser.reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
         </div>
       </div>
     </div>
@@ -170,7 +170,7 @@
           <div class="post-meta mb30">
            
           </div>
-          <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+          <p><a href="{{ route('puplicUser.reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
         </div>
       </div>
     </div>
@@ -183,7 +183,7 @@
           <div class="post-meta mb30">
            
           </div>
-          <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+          <p><a href="{{ route('puplicUser.reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
         </div>
       </div>
     </div>
@@ -197,15 +197,10 @@
           <div class="post-meta mb30">
            
           </div>
-          <p><a href="{{ route('reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+          <p><a href="{{ route('puplicUser.reservation') }}" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
         </div>
       </div>
     </div>
-
-    <br>
-    <br>
-
-    
-
+  </div>
 @endsection
 

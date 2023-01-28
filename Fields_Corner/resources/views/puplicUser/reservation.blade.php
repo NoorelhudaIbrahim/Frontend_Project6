@@ -1,6 +1,6 @@
-@extends('layout.master')
+@extends('puplicUser.layout.master')
 @section('reservation')
-   
+   reservation
 @endsection
 @section('css')
     
