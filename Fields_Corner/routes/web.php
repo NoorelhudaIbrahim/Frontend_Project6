@@ -38,3 +38,9 @@ Route::get('/about', function () {
 Route::get('contact', function () {
     return view('contact');
 });
+Route::get('UserProfile',function(){
+    return view('userprofile');
+});
+Route::get('Edit',function(){
+    return view('userprofileEdit');
+});

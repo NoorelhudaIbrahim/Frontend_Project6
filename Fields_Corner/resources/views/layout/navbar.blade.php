@@ -1,5 +1,5 @@
 {{-- @section('header') --}}
-<header role="banner" class="probootstrap-header">
+<header role="banner" class="probootstrap-header lb">
     <!-- <div class="container"> -->
     <div class="row">
         <a href="index.html" class="probootstrap-logo visible-xs"><img src="img/logo_sm.png" class="hires" width="120" height="33" alt="Free Bootstrap Template by uicookies.com"></a>
