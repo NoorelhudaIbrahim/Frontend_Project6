@@ -96,7 +96,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   color: #2F70AF;
   text-decoration: none;
 }
-
+/* 
 .probootstrap-header {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -104,7 +104,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   z-index: 4;
   top: 0;
   background: #ffffff;
-}
+} */
 
 .probootstrap-logo {
   float: left;
@@ -314,7 +314,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   display: block;
 }
 
-.probootstrap-header-social {
+/* .probootstrap-header-social {
   position: absolute;
   top: 34px;
   right: 60px;
@@ -328,7 +328,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-header-social li a {
   color: #ffffff;
-}
+} */
 
 .mobile-menu-overlay {
   z-index: 1099;

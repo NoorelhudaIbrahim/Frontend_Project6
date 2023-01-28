@@ -86,8 +86,8 @@ about
               <i class="icon-check"></i>
             </div>
             <div class="text">
-              <h3>1+ Million Hotel Rooms</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <h3>One place to book</h3>
+              <p>we offer multiple choices to book for different types of fields</p>
               {{-- <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p> --}}
             </div>
           </div>
@@ -98,8 +98,8 @@ about
               <i class="icon-check"></i>
             </div>
             <div class="text">
-              <h3>Food &amp; Drinks</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <h3>Easy Place to Book</h3>
+              <p>Our website is easy to use with an easy to access user interface</p>
               {{-- <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p> --}}
             </div>
           </div>
@@ -110,8 +110,8 @@ about
               <i class="icon-check"></i>
             </div>
             <div class="text">
-              <h3>Airport Taxi</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <h3>Without commissions</h3>
+              <p>You can book hours through our website without any other costs such as commission</p>
               {{-- <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p> --}}
             </div>
           </div>
