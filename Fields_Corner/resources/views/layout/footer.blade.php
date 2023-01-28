@@ -1,5 +1,5 @@
 
-<footer role="contentinfo" class="probootstrap-footer">
+<footer role="contentinfo" class="probootstrap-footer lb">
     <div  class="container">
       <div style="height:10px !important;" class="row">
         <div class="col-md-4">
