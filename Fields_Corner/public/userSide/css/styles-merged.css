@@ -7294,12 +7294,12 @@ button.close {
 .modal-header:before,
 .nav:after,
 .nav:before,
-.navbar-collapse:after,
+/* .navbar-collapse:after,
 .navbar-collapse:before,
 .navbar-header:after,
 .navbar-header:before,
 .navbar:after,
-.navbar:before,
+.navbar:before, */
 .pager:after,
 .pager:before,
 .panel-body:after,
@@ -7320,9 +7320,9 @@ button.close {
 .modal-footer:after,
 .modal-header:after,
 .nav:after,
-.navbar-collapse:after,
+/* .navbar-collapse:after,
 .navbar-header:after,
-.navbar:after,
+.navbar:after, */
 .pager:after,
 .panel-body:after,
 .row:after {

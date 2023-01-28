@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-  --orange:#ff4757;
+  --orange:#156fb3;
 }
 
 *{
@@ -66,7 +66,7 @@ section{
 header{
   position: fixed;
   top:0; left: 0; right:0;
-  background:#889ad5;
+  background:#f4f5f7;
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -86,7 +86,7 @@ header .logo span{
 }
 
 header .navbar a{
-  color:#fff;
+  color:black;
   font-size: 2rem;
   margin:0 .8rem;
 }
@@ -97,7 +97,7 @@ header .navbar a:hover{
 
 header .icons i{
   font-size: 2.5rem;
-  color:#fff;
+  color:black;
   cursor: pointer;
   margin-right: 2rem;
 }
@@ -670,6 +670,24 @@ header .search-bar-container label:hover{
     background:#222;
   }
 
+}
+ .dropdown-menu{
+  padding: 0px 0px;
+  border-radius: 0px;
+}
+ .dropdown-menu .dropdown-item{
+  padding: 8px 16px;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+}
+ .dropdown-menu .dropdown-item i{
+  width: 20px;
+  text-align: center;
+  color: #2874f0;
+  font-size: 14px;
+}
+.lb {
+  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (max-width:450px){
