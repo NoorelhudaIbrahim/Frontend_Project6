@@ -33,7 +33,7 @@ login
             <button>Login
                 <i class="zmdi zmdi-arrow-right"></i>
             </button>
-            <p style="padding-top: 50px;"><a  style="text-decoration: none;"  href="{{ route('register') }}" >If you don't have account register here</a></p>
+            <p style="padding-top: 50px;"><a  style="text-decoration: none;"  href="{{ route('puplicUser.register') }}" >If you don't have account register here</a></p>
         </form>
     </div>
 </div>
