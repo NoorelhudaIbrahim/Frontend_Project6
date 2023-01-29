@@ -23,7 +23,7 @@
               <div class="col-md-10 col-md-offset-1">
                 <div class="probootstrap-slider-text text-center">
                   <h1 class="probootstrap-heading probootstrap-animate">Welcome to fields corner</h1>
-                  <div class="probootstrap-animate probootstrap-sub-wrap">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
+                  <div class="probootstrap-animate probootstrap-sub-wrap">Enjoy the only golf field in the kingdom</div>
                   <br>
                   <br>
                   <div class="box">
@@ -42,8 +42,8 @@
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
                 <div class="probootstrap-slider-text text-center">
-                  <h1 class="probootstrap-heading probootstrap-animate">Enjoy Luxury Experience</h1>
-                  <div class="probootstrap-animate probootstrap-sub-wrap">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
+                  <h1 class="probootstrap-heading probootstrap-animate">Enjoying experiences</h1>
+                  <div class="probootstrap-animate probootstrap-sub-wrap">Let's enjoy football through the best sports facilities that meet the highest standards of quality, protection, and safety</div>
                   <br>
                   <br>
                   <div class="box">
@@ -162,7 +162,7 @@
                 </ul>
               </div>
               Home to Jordan’s first 18-hole championship golf course and 9-hole golf academy is Ayla’s Signature Golf course, designed by legendary Greg Norman. Having built premium golf courses in Dubai, Oman, and Egypt, Greg took on the challenge of designing the first championship course in Jordan. With over 800,000 square meters of rolling green fairways, both beginner and expert golfers are welcome to enjoy this one-of-a-kind eco-friendly golf course overlooking Aqaba’s captivating mountain landscape.
-              <p><a href="#" class="btn btn-primary">More Details</a></p>
+              <p><a href="#" class="btn btn-primary">Book Now</a></p>
             </div>
           </div>
       </div>

@@ -1696,6 +1696,7 @@ a.hover-reverse:hover {
     font-size: 50px;
     line-height: 60px;
     font-family: "Crimson Text", serif;
+
 }
 
 .flexslider .probootstrap-sub-wrap {
@@ -1707,11 +1708,13 @@ a.hover-reverse:hover {
 
 .flexslider .text-center .probootstrap-sub-wrap {
     margin: 0 auto;
-    text-align: center
+    text-align: center;
+
 }
 
 .flexslider .probootstrap-slider-text {
     margin-top: 300px
+
 }
 
 @media screen and (max-width:480px) {
