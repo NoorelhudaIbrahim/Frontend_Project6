@@ -22,7 +22,7 @@
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
                 <div class="probootstrap-slider-text text-center">
-                  <h1 class="probootstrap-heading probootstrap-animate">Welcome to Atlantis</h1>
+                  <h1 class="probootstrap-heading probootstrap-animate">Welcome to fields corner</h1>
                   <div class="probootstrap-animate probootstrap-sub-wrap">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
                   <br>
                   <br>
@@ -83,7 +83,7 @@
   </section>
 
 
-   <section class="probootstrap-section">
+   <section class="probootstrap-section ">
     <div class="container">
         <div class="row">
           <div class="col-md-12 probootstrap-relative">
@@ -127,32 +127,47 @@
                   </div>
                 </div>
               </div>
-              <div class="item">
-                <div class="probootstrap-room">
-                  <a href="#"><img src="img/img_7.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
-                  <div class="text">
-                    <h3>Golf Fields</h3>
-                    <div class="post-meta">
-                    </div>
-                  </div>
-                </div>
-              </div>
-             
             </div>
           </div>
         </div>
       </div>
   </section>
 
-
-
-
-
-
-
-
-
-
+  <section class="probootstrap-section probootstrap-section-dark">
+    <div class="container">
+      <div class="row mb30">
+        <div class="col-md-8 col-md-offset-2 probootstrap-section-heading text-center">
+          <h2>Aqaba Golf Field</h2>
+          {{-- <p class="lead">...................</p> --}}
+          {{-- <p><img src="img/curve.svg" class="svg" alt="Free HTML5 Bootstrap Template"></p> --}}
+        </div>
+      </div>
+      <div class="row probootstrap-gutter10">
+        <div class="col-md-12">
+          <div class="probootstrap-block-image-text">
+            <figure>
+              <a href="img/img_2.jpg" class="image-popup">
+              <img src="img/img_2.jpg" alt="Free HTML5 Bootstrap Template by uicookies.com" class="img-responsive">
+              </a>
+              <div class="actions">
+                <a href="https://vimeo.com/220607649" class="popup-vimeo"><i class="icon-play2"></i></a>
+              </div>
+            </figure>
+            <div class="text">
+              {{-- <h3><a href="#">Ultra Superior Room</a></h3> --}}
+              <div class="post-meta">
+                <ul>
+                  {{-- <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li> --}}
+                  {{-- <li><i class="icon-user2"></i> 3 Guests</li> --}}
+                </ul>
+              </div>
+              Home to Jordan’s first 18-hole championship golf course and 9-hole golf academy is Ayla’s Signature Golf course, designed by legendary Greg Norman. Having built premium golf courses in Dubai, Oman, and Egypt, Greg took on the challenge of designing the first championship course in Jordan. With over 800,000 square meters of rolling green fairways, both beginner and expert golfers are welcome to enjoy this one-of-a-kind eco-friendly golf course overlooking Aqaba’s captivating mountain landscape.
+              <p><a href="#" class="btn btn-primary">More Details</a></p>
+            </div>
+          </div>
+      </div>
+    </div>
+    </section>
 
 
 <section >
@@ -205,65 +220,6 @@
 </div>
 </section>
 
-<section class="probootstrap-section probootstrap-section-dark">
-<div class="container">
-  <div class="row mb30">
-    <div class="col-md-8 col-md-offset-2 probootstrap-section-heading text-center">
-      <h2>Aqaba Golf Field</h2>
-      {{-- <p class="lead">...................</p> --}}
-      {{-- <p><img src="img/curve.svg" class="svg" alt="Free HTML5 Bootstrap Template"></p> --}}
-    </div>
-  </div>
-  <div class="row probootstrap-gutter10">
-    <div class="col-md-6">
-      <div class="probootstrap-block-image-text">
-        <figure>
-          <a href="img/img_4.jpg" class="image-popup">
-            <img src="img/img_4.jpg" alt="Free HTML5 Bootstrap Template by uicookies.com" class="img-responsive">
-          </a>
-          <div class="actions">
-            <a href="https://vimeo.com/233225044" class="popup-vimeo"><i class="icon-play2"></i></a>
-          </div>
-        </figure>
-        <div class="text">
-          {{-- <h3><a href="#">Grand Deluxe Room</a></h3> --}}
-          <div class="post-meta">
-            <ul>
-              {{-- <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li> --}}
-              {{-- <li><i class="icon-user2"></i> 3 Guests</li> --}}
-            </ul>
-          </div>
-          {{-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> --}}
-          <p><a href="#" class="btn btn-primary">More Details</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="probootstrap-block-image-text">
-        <figure>
-          <a href="img/img_2.jpg" class="image-popup">
-          <img src="img/img_2.jpg" alt="Free HTML5 Bootstrap Template by uicookies.com" class="img-responsive">
-          </a>
-          <div class="actions">
-            <a href="https://vimeo.com/220607649" class="popup-vimeo"><i class="icon-play2"></i></a>
-          </div>
-        </figure>
-        <div class="text">
-          {{-- <h3><a href="#">Ultra Superior Room</a></h3> --}}
-          <div class="post-meta">
-            <ul>
-              {{-- <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li> --}}
-              {{-- <li><i class="icon-user2"></i> 3 Guests</li> --}}
-            </ul>
-          </div>
-          {{-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> --}}
-          <p><a href="#" class="btn btn-primary">More Details</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
 
 
 <section class="probootstrap-half">
