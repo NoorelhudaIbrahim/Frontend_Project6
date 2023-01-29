@@ -37,13 +37,13 @@ Route::get('/login',[loginController::class,'index'])->name('puplicUser.login');
 Route::get('/about', function () {
     return view('puplicUser.about');
 });
-Route::get('contact', function () {
+Route::get('/contact', function () {
     return view('puplicUser.contact');
 });
-Route::get('UserProfile',function(){
+Route::get('/UserProfile',function(){
     return view('puplicUser.userprofile');
 });
-Route::get('Edit',function(){
+Route::get('/Edit',function(){
     return view('puplicUser.userprofileEdit');
 });
 Route::get('singleItem',function(){
